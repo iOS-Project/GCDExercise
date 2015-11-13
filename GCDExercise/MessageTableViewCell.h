@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MessageTableViewCell.h
 //  GCDExercise
 //
 //  Created by Lun Sovathana on 11/13/15.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UITableView *tblView;
-
+@interface MessageTableViewCell : UITableViewCell
 
 @end
-

@@ -15,6 +15,7 @@
 		D5543ECF1BF5C0ED00FF1C87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5543ECD1BF5C0ED00FF1C87 /* LaunchScreen.storyboard */; };
 		D5543EDA1BF5C0EE00FF1C87 /* GCDExerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5543ED91BF5C0EE00FF1C87 /* GCDExerciseTests.m */; };
 		D5543EE51BF5C0EE00FF1C87 /* GCDExerciseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5543EE41BF5C0EE00FF1C87 /* GCDExerciseUITests.m */; };
+		D5543EF41BF5C1A900FF1C87 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5543EF31BF5C1A900FF1C87 /* MessageTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D5543EE01BF5C0EE00FF1C87 /* GCDExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5543EE41BF5C0EE00FF1C87 /* GCDExerciseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDExerciseUITests.m; sourceTree = "<group>"; };
 		D5543EE61BF5C0EE00FF1C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5543EF21BF5C1A900FF1C87 /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		D5543EF31BF5C1A900FF1C87 /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				D5543ECD1BF5C0ED00FF1C87 /* LaunchScreen.storyboard */,
 				D5543ED01BF5C0ED00FF1C87 /* Info.plist */,
 				D5543EBF1BF5C0ED00FF1C87 /* Supporting Files */,
+				D5543EF21BF5C1A900FF1C87 /* MessageTableViewCell.h */,
+				D5543EF31BF5C1A900FF1C87 /* MessageTableViewCell.m */,
 			);
 			path = GCDExercise;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5543EC71BF5C0ED00FF1C87 /* ViewController.m in Sources */,
+				D5543EF41BF5C1A900FF1C87 /* MessageTableViewCell.m in Sources */,
 				D5543EC41BF5C0ED00FF1C87 /* AppDelegate.m in Sources */,
 				D5543EC11BF5C0ED00FF1C87 /* main.m in Sources */,
 			);
